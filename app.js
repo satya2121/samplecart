@@ -19,6 +19,9 @@ app.set("view engine", "ejs");
 app.use("/api/product", require("./api/routes/product.route"));
 app.use("/api/cart", require("./api/routes/cart.route"));
 
+//web route
+app.use("/", require("./web/routes/home.route"));
+
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
