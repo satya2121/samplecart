@@ -1,0 +1,26 @@
+{
+  "name": "samplecart",
+  "version": "1.0.0",
+  "description": "this is simple cart application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon samplecart-server.js",
+    "start": "nodemon samplecart-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satya2121/samplecart.git"
+  },
+  "author": "Satyanand tiwari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satya2121/samplecart/issues"
+  },
+  "homepage": "https://github.com/satya2121/samplecart#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
